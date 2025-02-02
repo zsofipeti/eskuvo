@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         countdownElement.textContent = daysRemaining;
     }
     
-    updateCountdown(); // Frissítés azonnal
-    setInterval(updateCountdown, 86400000); // 24 óránként frissít
+    updateCountdown();
+    setInterval(updateCountdown, 86400000);
 });
